@@ -30,6 +30,7 @@ class IdealFunctionFinder:
 
         # Convert the deviations to a NumPy array
         self.deviations = np.array(deviations)
+        print(deviation)
 
     def find_ideal_functions(self):
         if self.deviations is None:
